@@ -77,7 +77,7 @@ function showStuff(x){
 const year = document.querySelector('#year');
 const today = new Date();
 
-year.innerHTML = `<span class='highlight'>🔥${today.getFullYear()}</span>&copy; Samuel Mercado Perez 🔥`;
+year.innerHTML = `<span class='highlight'>🔥${today.getFullYear()}</span>&copy; Lawani J. Covenant 🔥`;
 
 
 
