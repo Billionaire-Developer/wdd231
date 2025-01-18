@@ -10,7 +10,7 @@ hamburgerElement.addEventListener('click',() =>{
 const year = document.querySelector('#year');
 const today = new Date();
 
-year.innerHTML = `<span class='highlight'>${today.getFullYear()}</span>&copy; Samuel Mercado Perez`;
+year.innerHTML = `<span class='highlight'>${today.getFullYear()}</span>&copy; Lawani Covenant`;
 
 const option = {year:'numeric', month:'long', day:'numeric'};
 const lastUpdated = today.toLocaleDateString('en-US', option);
