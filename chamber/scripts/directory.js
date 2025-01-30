@@ -1,4 +1,4 @@
-//busienss cards getting info
+//business cards getting info
 async function getBusiness(){
     const response = await fetch('./data/members.json');
     const data = await response.json();
@@ -17,7 +17,7 @@ const displayBusiness = (companies) => {
         card.classList.add('card-container');
 
         // card.className = 'card-container';
-        let companyLogo = document.createElement('img');//fing a way to add a src and atl
+        let companyLogo = document.createElement('/chamber/images');//fing a way to add a src and atl
         let companyName = document.createElement('h6');
         companyName.textContent = `${company.name}`;
         let companyAddress = document.createElement('p');
